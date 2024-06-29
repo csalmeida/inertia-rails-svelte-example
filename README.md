@@ -1,24 +1,13 @@
-# README
+# Rails 7 w/ InertiaJS and Svelte 5
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Setup 
 
-Things you may want to cover:
+- `bundle install`
+- `npm install`
+- `./bin/dev`
 
-* Ruby version
+# Resources 
+- [Evil Martians Guide for Inertia w/Rails](https://evilmartians.com/chronicles/inertiajs-in-rails-a-new-era-of-effortless-integration)
+- [Inertia Documentation](https://inertia-rails.netlify.app/guide/server-side-setup.html)
+- [Svelte 5 Documentation](https://svelte-5-preview.vercel.app)
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
