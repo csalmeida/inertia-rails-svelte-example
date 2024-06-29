@@ -3,12 +3,12 @@
   import inertiaSvg from '/assets/inertia.svg'
   import viteRubySvg from '/assets/vite_ruby.svg'
 
-  export let name
+  let { name } = $props();
 
-  let count = 0
+  let count = $state(0);
 
   function handleClick() {
-    count += 1
+    count++
   }
 </script>
 

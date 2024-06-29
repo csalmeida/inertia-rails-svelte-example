@@ -1,4 +1,5 @@
 import { createInertiaApp } from '@inertiajs/svelte'
+import { mount } from 'svelte'
 
 createInertiaApp({
   // Set default page title
@@ -25,6 +26,6 @@ createInertiaApp({
   },
 
   setup({ el, App, props }) {
-    new App({ target: el, props })
+    mount(App, { target: el, props })
   },
 })
